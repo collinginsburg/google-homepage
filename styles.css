@@ -20,8 +20,8 @@ a:hover{
 
 header{
     display: flex;
-    padding:10px;
-    padding-top: 20px;
+    padding:15px;
+    padding-top: 24px;
     justify-content: space-between;
     font-size: 13px;
     color: #000000;
@@ -30,6 +30,24 @@ header{
 
 .nav-right{
     padding-right: 10px;
+    display: flex;
+    /* margin-right: 100px; */
+}
+
+.closer{
+    margin-left: -15px;
+    /* margin-right: 10px; */
+    /* display: flex; */
+    /* margin-right: 100px; */
+}
+
+.apps{
+    height: 17px;
+    align-self:baseline;
+    fill: grey;
+}
+.apps a{
+    margin-bottom: 10px;
 }
 
 .sign-in{
@@ -39,7 +57,7 @@ header{
     font-weight: bold;
     padding-top: 8px;
     padding-bottom: 8px;
-    margin-left: 10px;
+    margin-left: 13px;
 }
 
 main{
